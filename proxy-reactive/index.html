@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>Proxy based reactivity demo</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/normalize.css/normalize.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/sakura.css/css/sakura-dark.css"
+    />
+    <script type="module" src="./main.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      window.addEventListener("load", () => {
+        main(document.getElementById("root"));
+      });
+    </script>
+  </body>
+</html>
